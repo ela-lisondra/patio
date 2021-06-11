@@ -1,0 +1,72 @@
+body {
+    font-family: "Lora";
+    color: #ffffff;
+    font-size: 18px;
+
+    background-image: url("/assets/images/background.svg");
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+header {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+nav  {
+    background-color: #f05d5d;
+    padding: 20px 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color:#ffffff;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #5000ff;
+    border-bottom: solid 2px #ffffff;
+    padding-bottom: 1px;
+}
+
+section {
+    background-color: #5000ff;
+    padding: 40px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.3;
+    margin-right: 20px;    
+}
+
+.image {
+    padding: 0;
+}
+
+blockquote {
+    font-size: 32px;
+    line-height: 1.2;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.map {
+    width: 100%;
+}
+
+.contact p {
+    margin-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: solid 2px red;
+    padding-bottom: 1px;
+}
